@@ -2,13 +2,13 @@ import MenuCard from "./MenuCard";
 
 export default function Menu() {
   return (
-<main className="bg-white mt-5">
-<div>
-<h1 className="font-bold text-4xl">Menu</h1>
-</div>
-<div className="flex flex-wrap justify-between">
-<MenuCard />
-</div>
-</main>
-  )
+    <main className="bg-white mt-5">
+      <div>
+        <h1 className="font-bold text-4xl">Menu</h1>
+      </div>
+      <div className="flex flex-wrap justify-between">
+        <MenuCard />
+      </div>
+    </main>
+  );
 }
