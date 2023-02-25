@@ -5,13 +5,10 @@ import RestaurantNavBar from "../components/RestaurantNavBar";
 export default function RestaurantMenuPage() {
   return (
   <>
-        <Header />
-        <div className="flex m-auto w-2/3 justify-between items-start 0 -mt-11">
-          <div className="bg-white w-[100%] p-3 shadow rounded">
+ <div className="bg-white w-[100%] p-3 shadow rounded">
             <RestaurantNavBar />
             <Menu />
           </div>
-        </div>
   </>
   );
 }
